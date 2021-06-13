@@ -3,8 +3,8 @@ import cv2
 import numpy as np
 
 class Resizer:
-    SRC_DIR = "src_images/"
-    DST_DIR = "dst_images/"
+    SRC_DIR = "../../src_images/"
+    DST_DIR = "../../dst_images/"
 
     def __init__(self, resize_ratio : int = 3) -> None:
         self.src_path = os.path.join(os.getcwd(), self.SRC_DIR)
