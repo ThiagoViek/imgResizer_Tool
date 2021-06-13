@@ -1,7 +1,8 @@
 from src.resizer import Resizer
 
 def main() -> None:
-    src_dir = 0
+    resizer = Resizer(3)
+    resizer.resize_images()
 
 if __name__ == "__main__":
     main()
